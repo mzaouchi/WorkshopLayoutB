@@ -1,0 +1,90 @@
+/* header background rgba(255, 255, 255, 0.9)  footer background #e8e8e6;; #363945; #5b6b7f;
+grey #484551;
+blue :#4fa3db;*/
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-css{
+    margin-left: 67px;
+    width: 120px;
+}
+
+.nav-links{
+    width: 34%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a{
+    color: #4fa3db;
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: #484551;
+}
+.nav-links li{
+    list-style: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section h1{
+    font-size: 40px;
+}
+
+.css-span{
+    color: #4fa3db;
+}
+
+.about-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchvideo-btn{
+    font-weight: bold;
+    font-size: 23px;
+    width: 180px;
+    height: 52px;
+    color: white;
+    border-radius: 22px;
+    background-color: #4fa3db;
+    border: none;
+}
+
+.projects-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project{
+    margin: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    *{
+        background-color: yellow;
+    }
+
+    .nav-links {
+        width: 65%;
+    }
+ } 
